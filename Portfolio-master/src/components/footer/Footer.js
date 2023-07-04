@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {FaInstagram,FaGithub ,FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
 
 const Footer = () => {
@@ -9,17 +9,17 @@ const Footer = () => {
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+          <a href='https://github.com/Pritam-Git01'><FaGithub/></a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+          <a href='https://www.instagram.com/prit_am01/'><FaInstagram /></a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+          <a href='http://www.linkedin.com/in/pritam-kumar-yadav-9a95b918a'><FaLinkedinIn/></a>
           </span>
         </div>
       </div>
-      <div className="w-full h-full">
+      <div style={{marginLeft: "32vw"}} className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
         </h3>
@@ -56,7 +56,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="w-full h-full">
+      {/* <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           RESOURCES
         </h3>
@@ -129,7 +129,7 @@ const Footer = () => {
             </span>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

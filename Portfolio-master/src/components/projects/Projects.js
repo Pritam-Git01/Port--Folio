@@ -24,18 +24,21 @@ const Projects = () => {
                 time you choose when booking your appointment.
          "
           src={projectOne}
+          links={"https://github.com/Pritam-Git01/Practo-Clone"}
         />
         <ProjectsCard
           title="GOOGLE DOCS"
           des=" It have some similar functionality like google Docs where users can 
               create and edit their text ducument and also able to download or print it in pdf."
           src={projectTwo}
+          links="https://github.com/Pritam-Git01/Google-Doc"
         />
         <ProjectsCard
           title="TWITTER App"
           des="It is clone of popular social media platform Twitter where users can see the 
                others people tweet and also make a tweet and follow each other"
           src={projectThree}
+          links="https://github.com/Pritam-Git01/Twitter-Clone"
         />
         {/* <ProjectsCard
           title="SOCIAL MEDIA CLONE"
