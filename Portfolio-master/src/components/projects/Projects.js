@@ -38,7 +38,7 @@ const Projects = () => {
           des="It is clone of popular social media platform Twitter where users can see the 
                others people tweet and also make a tweet and follow each other"
           src={projectThree}
-          links="https://github.com/Pritam-Git01/Twitter-Clone"
+          links="https://github.com/Pritam-Git01/Twitter--Clone"
         />
         {/* <ProjectsCard
           title="SOCIAL MEDIA CLONE"

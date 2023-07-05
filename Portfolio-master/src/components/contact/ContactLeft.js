@@ -19,7 +19,7 @@ const ContactLeft = () => {
           Don't be a Stranger, Connect with me also you can Hire me as a Frontend Developer
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+91 9162XXXXXX</span>
+          Phone: <span className="text-lightText">+91 9162788251</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">pritamyadav9162@gmail.com</span>
