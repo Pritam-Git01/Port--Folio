@@ -30,7 +30,7 @@ const Projects = () => {
         <ProjectsCard
           title="GOOGLE DOCS"
           des=" It have some similar functionality like google Docs where users can 
-              create and edit their text ducument and also able to download or print it in pdf."
+              create and edit their text document and also able to download or print it in pdf."
           src={projectTwo}
           glinks="https://github.com/Pritam-Git01/Google-Doc"
           wlinks="https://google-docs-pritam-git01.vercel.app/"
@@ -46,7 +46,7 @@ const Projects = () => {
          <ProjectsCard
           title="CRYPTO CAVE"
           des=" It is a crypto currencies information app. which shows real time information
-              of most of the cryto currencies available in market with actual graph presentation."
+              of most of the crypto currencies available  with actual graph presentation."
           src={project4}
           glinks="https://github.com/Pritam-Git01/Crypto-Cave"
           wlinks="https://crypto-cave.vercel.app/"
