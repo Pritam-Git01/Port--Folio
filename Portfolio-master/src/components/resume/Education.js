@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion';
-import ResumeCard from './ResumeCard';
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
@@ -12,7 +12,6 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          
           <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -20,28 +19,33 @@ const Education = () => {
             title="B.sc Physics Honors"
             subTitle="Patliputra University, Patna (2019 - 2022)"
             result="63.07%"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="The learning provided by my university in order to prepare me to work in various sectors.
+                 In my graduation journey i learned  time-management such as submit assignment on time
+                  along  with preparation for various tests ."
+                
           />
           <ResumeCard
             title="12th Intermediate"
             subTitle="S D N Inter College (2017 - 2019)"
             result="85.80%"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            des="In my Higher education, I learned problem solving skills like how to approch a 
+            problem these skills i learned when i solving math problem as well as physics problems."
           />
           <ResumeCard
             title="10th Board"
             subTitle="S D N High School (2016 - 2017)"
             result="75.60%"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="In my 10th standard i learned leadership skills because, I was captain of my school 
+             Cricket where we participated in many tournaments and team performed very well under my 
+             captaincy and i also maintain good relationship with coach as well as my team members ."
           />
         </div>
-        
       </div>
-      
+
       {/* part Two */}
 
       {/* // <div> */}
-        {/* <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+      {/* <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
@@ -52,7 +56,7 @@ const Education = () => {
             result="USA"
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           /> */}
-          {/* <ResumeCard
+      {/* <ResumeCard
             title="Web Developer & Trainer"
             subTitle="Apple Developer Team - (2012 - 2016)"
             result="MALAYSIA"
@@ -64,11 +68,11 @@ const Education = () => {
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           /> */}
-        {/* // </div> */}
+      {/* // </div> */}
 
       {/* </div> */}
     </motion.div>
   );
-}
+};
 
-export default Education
+export default Education;
