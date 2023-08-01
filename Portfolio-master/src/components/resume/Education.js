@@ -16,7 +16,7 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="B.sc Physics Honors"
+            title="B.Sc Physics Honors"
             subTitle="Patliputra University, Patna (2019 - 2022)"
             result="63.07%"
             des="The learning provided by my university in order to prepare me to work in various sectors.
@@ -25,14 +25,14 @@ const Education = () => {
                 
           />
           <ResumeCard
-            title="12th Intermediate"
+            title="Higher Secondary Education"
             subTitle="S D N Inter College (2017 - 2019)"
             result="85.80%"
             des="In my Higher education, I learned problem solving skills like how to approch a 
             problem these skills i learned when i solving math problem as well as physics problems."
           />
           <ResumeCard
-            title="10th Board"
+            title="Secondary School Education"
             subTitle="S D N High School (2016 - 2017)"
             result="75.60%"
             des="In my 10th standard i learned leadership skills because, I was captain of my school 

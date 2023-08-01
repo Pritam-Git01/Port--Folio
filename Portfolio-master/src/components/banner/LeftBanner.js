@@ -26,7 +26,8 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.
+        I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards. Eager to collaborate, learn, and contribute to innovative projects.
+
         </p>
       </div>
      {/* Media */}
